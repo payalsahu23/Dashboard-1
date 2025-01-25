@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #003f8a;
+  }
+  
+  .filters {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .filters h2 {
+    margin-bottom: 15px;
+  }
+  
+  .filters label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .filters input,
+  .filters select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .filters span {
+    font-weight: bold;
+  }
+  
+  .charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  canvas {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  body.dark {
+    background-color: #1a1a1a;
+    color: #f4f4f9;
+  }
+  
+  body.dark header {
+    background-color: #333;
+  }
+  
+  body.dark .filters {
+    background-color: #292929;
+  }
+  
+  body.dark button {
+    background-color: #444;
+  }
+  
+  body.dark button:hover {
+    background-color: #666;
+  }
+  
